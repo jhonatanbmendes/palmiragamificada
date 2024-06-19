@@ -1,0 +1,37 @@
+main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.titulo{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.opcao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.botao{
+    width: 40%;
+    margin-top: 20px;
+}
+.botao a{
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    .botao{
+        width: 100%;
+    }
+}
